@@ -1,5 +1,5 @@
 const fs = require('fs');
- 
+
 const countStudents = (path) => {
   try {
     // read the file
@@ -36,5 +36,5 @@ const countStudents = (path) => {
     throw new Error('Cannot load the database');
   }
 };
- 
+
 module.exports = countStudents;
